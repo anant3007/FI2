@@ -16,7 +16,7 @@ import com.fi.gateway.model.DebitStatus;
 @RequestMapping("/api")
 public class FIGatewayController {
 
-	@PutMapping(value="/fi/debit",produces=MediaType.APPLICATION_XML_VALUE,consumes=MediaType.APPLICATION_XML_VALUE)
+	@PutMapping(value="/fi2/debit",produces=MediaType.APPLICATION_XML_VALUE,consumes=MediaType.APPLICATION_XML_VALUE)
 	public DebitAddRs debit(@RequestBody DebitInfo debitInfo)
 	{
 		DebitAddRs response= new DebitAddRs();	
